@@ -1,0 +1,246 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2cd3b4</item>
+        <item name="colorPrimaryDark">#221d1d</item>
+        <item name="colorAccent">#2cd3b4</item>
+    </style>
+
+    <style name="MainImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/background</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#2cd3b4</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="Sub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#F4F5F7</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="ExploreButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#2cd3b4</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/button_layout_marginTop</item>
+        <item name="android:background">@drawable/button</item>
+
+    </style>
+
+    <style name="Facebook">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#F4F5F7</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/fb</item>
+        <item name="android:contentDescription">@string/facebook</item>
+    </style>
+
+    <style name="Twitter">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#F4F5F7</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:src">@drawable/twitter</item>
+        <item name="android:contentDescription">@string/twitter</item>
+    </style>
+
+    <style name="Contact">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+    <style name="HorizontalLayoutTwoBoxes">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="SeparatorDark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:background">#2d2828</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="SeparatorLight" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#81d4c4</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="questionBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/background_box_1</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="questionBox2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/background_box_2</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="questionBox3">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">@drawable/background_box_3</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="questionBox4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/background_box_4</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="Icon" >
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextLightBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#4f4f54</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TextDarkBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#82eeda</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Description">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#4f4f54</item>
+    </style>
+
+    <style name="Sub_testimonials">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#F4F5F7</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="Testimonials">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#82eeda</item>
+    </style>
+
+    <style name="Sub_portfolio">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:drawableRight">@drawable/slides</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#2cd3b4</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="HorizontalScrollView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#82eeda</item>
+    </style>
+
+</resources>
